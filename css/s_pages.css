@@ -1,0 +1,640 @@
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
+
+*{
+  font-family: Ubuntu-Bold;
+  margin: 1%;
+}
+
+/*---------------nav--------------*/
+nav {
+    padding: 20px 20px 20px 20px;
+    
+  
+  }
+  
+  .nav {
+    margin: auto;
+    max-width: 1200px;
+    
+  }
+  
+  nav ul,
+  nav li {
+    display: inline-block;
+    
+  }
+  
+  
+  
+  
+  nav ul li a,
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
+    transition: .2s;
+  }
+  
+  nav .nav>a {
+  
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: fantasy;
+  }
+  
+  nav ul li a,
+  .dropbtn {
+    padding: 5px 15px;
+  }
+  
+
+  
+  .logo{
+    height: 60px;
+  }
+  
+    #mclogo{
+      margin-right:10%;
+    }
+  
+  @media only screen and (max-width: 975px) {
+    nav .nav>a {
+        display: block;
+    }
+  
+    nav .nav ul li {
+        margin-top: 10px
+    }
+  
+    nav {
+        text-align: center;
+    }
+  
+    nav ul li a {
+        padding: 6px;
+  
+    }
+  
+    nav ul {
+        display: block;
+        padding: 20px 4px 30px;
+    }
+  
+    nav #cart {
+        float: none;
+        width: 80px;
+        margin: auto;
+    }
+  }
+  
+  #cart {
+    border: 2px solid #FD3A2D;
+    border-radius: 17px;
+    background-color: #FD3A2D;
+    color: rgb(255, 255, 255);
+    margin: auto 10px;
+    float: right;
+    padding: 5px 30px;
+    font-size: larger;
+    margin-top: 30px;
+  }
+  
+  #cart:hover {
+    cursor: pointer;
+    border-color: #FD3A2D;
+    scale: 1.08;
+    background-color: #FD3A2D;
+  }
+  
+  header .header {
+    border: 2px solid #FD3A2D;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header .header h1 {
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  header .header h1 span {
+    color: #FF872C;
+  }
+  
+  header .header a {
+    text-decoration: none;
+    color: darkgoldenrod;
+  }
+  
+  header .header a:hover {
+    text-decoration: underline;
+    color: #ffff;
+  }
+  #log{
+    border: 2px solid #FD3A2D;
+    border-radius: 17px;
+    background-color: #FF872C;
+    color: rgb(255, 255, 255);
+    margin: auto 10px;
+    padding: 5px 30px;
+    font-size: larger;
+  
+  }
+  #log:hover {
+    cursor: pointer;
+    border-color: #FF872C;
+    scale: 1.08;
+    background-color: #FD3A2D;
+  }
+  
+  
+  #sing{
+    border: 2px solid #FD3A2D;
+    border-radius: 17px;
+    background-color: #FF872C;
+    color: rgb(255, 255, 255);
+    margin: auto 10px;
+    padding: 5px 30px;
+    font-size: larger;
+  
+  }
+  #sing:hover {
+    cursor: pointer;
+    border-color: #FF872C;
+    scale: 1.08;
+    background-color: #FD3A2D;
+  }
+  
+  
+  
+  /*--------------------------------section---------------------------*/
+  section {
+    margin: 5% 0;
+  }
+  
+  section .center {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+  
+  }
+  
+  section div article {
+    margin: 25px;
+    padding-bottom: 25px;
+    display: inline-block;
+    border-radius: 4px;
+    height: 386px;
+    width: 225px;
+    max-width: 225px;
+    min-width: 225px;
+    transition: .2s;
+  }
+  
+  section article img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  section article .img-product {
+    height: 250px;
+  }
+  
+  section div article:hover {
+    transform: scale(1.1);
+  }
+  
+  section article .border:hover a {
+    color: #ffff;
+  }
+  
+  section article a {
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+  
+  }
+  
+  section article div.border {
+
+    margin-top: 20px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  section article div.border:hover,
+  section article div.border a:hover {
+    background-color: #FF872C;
+    cursor: pointer;
+  
+  }
+  
+  section .name {
+    font-size: large;
+    letter-spacing: 1px;
+  }
+  
+  section .arrow {
+    width: 40px;
+  
+  
+  
+  }
+  
+  section .linkarrow {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  
+  
+  /*-------------------------------footer-------------------------------*/
+  footer {
+    border: 2px solid #FD3A2D;
+    color: #FD3A2D;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  footer .p1,
+  footer .p2 {
+    color: black;
+    font-size: larger;
+  
+  }
+  
+  footer .p1 {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+  }
+  
+  footer img {
+    width: 30px;
+    padding: 5px 8px;
+    transition: .1s;
+  }
+  footer hr{
+    width: 50%;
+  }
+  
+  footer .padding {
+    padding: 40px 0;
+  }
+  
+  footer img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  
+  footer .iframe {
+    max-width: 600px;
+    display: none;
+  }
+  
+  footer button {
+    background: transparent;
+    border: transparent;
+  }
+  
+  
+  
+  #go_b{
+    border: 2px solid #FD3A2D;
+    border-radius: 17px;
+    background-color: #FF872C;
+    color: rgb(255, 255, 255);
+    margin: auto 10px;
+    
+    padding: 5px 30px;
+    font-size: larger;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+  
+  #go_b:hover {
+    cursor: pointer;
+    border-color: #FF872C;
+    scale: 1.08;
+    background-color: #FD3A2D;
+  }
+
+/* Custom styles */
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf');
+}
+@media screen and (min-width: 1500px) {
+  .navbar .navbar-nav .nav-link {
+    display: inline-block !important;
+    margin: 0 30px !important;
+    justify-content: space-between !important;
+  }
+  #nvs {
+    padding-left: 5%;
+    
+  }
+}
+
+
+* {
+  font-family: Ubuntu-Bold;
+  margin: 0%;
+}
+html {
+  scroll-behavior: smooth
+}
+
+.nav {
+  margin: auto;
+  max-width: 1500px;
+}
+
+.nav ul,
+.nav li {
+  display: inline-block;
+}
+
+.nav ul li a,
+.nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  transition: .2s;
+}
+
+.nav .nav>a {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+.nav ul li a,
+.dropbtn {
+  padding: 5px 0px;
+}
+
+.nav ul li a:hover,
+.dropbtn:hover {
+  color: #FD3A2D;
+}
+
+.logo {
+  height: 60px;
+}
+
+#mclogo {
+  margin-right: 0%;
+}
+
+#cart {
+  border-radius: 17px;
+  border-color: #FD3A2D;
+  background-color: #FD3A2D;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 5px 30px;
+  font-size: larger;
+  margin: 10px;
+}
+
+#cart:hover {
+  cursor: pointer;
+  border-color: #FD3A2D;
+  scale: 1.08;
+  background-color: #FD3A2D;
+}
+
+header img {
+  width: 98%;
+  border-radius: 17px;
+}
+
+.header-h {
+  background-color: #FF872C;
+  border-radius: 17px;
+}
+
+/*--------------------------------section---------------------------*/
+
+section div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1900px;
+  padding-left: 8%;
+}
+#row {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+
+}
+
+section div article {
+  margin: 30px;
+  padding-bottom: 25px;
+  display: inline-block;
+  border-radius: 4px;
+  height: 340px;
+  width: 225px;
+  max-width: 225px;
+  min-width: 225px;
+  transition: .2s;
+}
+
+section article img {
+  width: 100%;
+  height: 100%;
+}
+
+section article .img-product {
+  height: 250px;
+}
+
+section div article:hover {
+  transform: scale(1.1);
+}
+
+section article div.border:hover a {
+  color: #ffff;
+}
+
+section article a {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+}
+
+.vm:hover {
+  text-decoration: none;
+}
+
+section article div.border {
+  border: 1px solid #FD3A2D;
+  margin-top: 20px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+section article div.border:hover,
+section article div.border a:hover {
+  background-color: #0473fb;
+  cursor: pointer;
+  
+}
+
+section .name {
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+section .arrow {
+  width: 40px;
+}
+
+section .linkarrow {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/*-------------------------------footer-------------------------------*/
+
+footer {
+  border: 2px solid #FD3A2D;
+  color: #FD3A2D;
+  border-radius: 20px;
+  text-align: center;
+}
+
+footer .p1,
+footer .p2 {
+  color: black;
+  font-size: larger;
+}
+
+footer .p1 {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+footer img {
+  width: 30px;
+  padding: 5px 8px;
+  transition: .1s;
+}
+
+footer hr {
+  width: 50%;
+}
+
+footer .padding {
+  padding: 40px 0;
+}
+
+footer img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+footer .iframe {
+  max-width: 600px;
+  display: none;
+}
+
+footer button {
+  background: transparent;
+  border: transparent;
+}
+
+#go_b {
+  border: 2px solid #FD3A2D;
+  border-radius: 10px;
+  background-color: #FD3A2D;
+  color: rgb(255, 255, 255);
+  margin: auto 10px;
+  padding: 5px 30px;
+  font-size: larger;
+  margin-top: 30px;
+}
+
+#go_b:hover {
+  cursor: pointer;
+  border-color: #FD3A2D;
+  scale: 1.08;
+  background-color: #FD3A2D;
+}
+
+#ab-img {
+  width: 50%;
+  display: inline-block;
+}
+
+#ab-body {
+  width: 45%;
+  display: inline-block;
+  padding: 15px;
+}
+
+#ab-body p {
+  font-size: 30px;
+}
+
+#ab-head {
+  width: 45%;
+  display: inline-block;
+}
+
+#animate {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  background-color: none;
+}
+
+.navbar .navbar-nav {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar .navbar-nav .nav-link {
+  display: inline-block;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+
+.product-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-wrapper .name {
+  margin-top: 10px;
+}
+
+.product-wrapper .border {
+  margin-top: 20px;
+}
+ #nvs {
+  padding-left: 16%;
+  padding-right: 10%;
+}
+
+#btnv {
+  padding-left: 6.5%;
+} 
+
+  
+
+
+

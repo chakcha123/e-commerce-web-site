@@ -1,0 +1,133 @@
+*{
+    font-family: Ubuntu-Bold;
+  }
+body{
+    margin: 0.5%;
+}
+.total{
+    margin: 1%;
+}
+header{
+    background-color: #FF872C;
+    border: 2px solid #FD3A2D;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+/*------------table------------*/
+fieldset{
+   border-color: #FD3A2D;
+   border-radius: 17px;
+}
+legend{
+    color: #FD3A2D;
+    font-size: 32px;
+    font-family:sans-serif;
+    letter-spacing: 3px;
+}
+section table{
+    width: 95%;
+    height: 90px;
+    
+}
+#htr th ,#ftr th {
+    border: 3px solid #FD3A2D;
+    /* background-color: #FF872C; */
+}
+ 
+#cartEmpty{
+    text-align: center;
+    border: 3px solid #FD3A2D;
+    /* background-color: #FF872C; */
+
+}
+
+
+
+/*------------button------------*/
+
+#reset {
+    border: 2px solid #FD3A2D;
+    border-radius: 10px;
+    background-color: #FD3A2D;
+    color: rgb(255, 255, 255);
+    margin: auto 10px;
+    padding: 5px 30px;
+    font-size: larger;
+    margin-top: 30px;
+}
+#valid{
+    border: 2px solid #0473fb;
+    border-radius: 10px;
+    background-color: #0473fb;
+    color: rgb(255, 255, 255);
+    margin: auto 10px;
+    padding: 5px 30px;
+    font-size: larger;
+    margin-top: 30px;
+}
+#valid:hover{
+    cursor: pointer;
+    scale: 1.08;
+    background-color: #0473fb;
+  }
+#reset:hover {
+    cursor: pointer;
+    scale: 1.08;
+    background-color: #FD3A2D;
+  }
+  .z {
+    border: 2px solid #0473fb;
+    border-radius: 10px;
+    background-color: #FD3A2D;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  #remove:hover , .n:hover ,.z:hover{
+    cursor: pointer;
+   
+    scale: 1.08;
+    
+  }
+  #remove{
+    border: 2px solid #FD3A2D;
+    border-radius: 10px;
+    background-color: #FD3A2D;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 20px;
+  }
+   #total{
+    float: right;
+    border: 4px solid #FD3A2D;
+    border-radius: 17PX;
+    font-size: 18px;
+   }
+   #total tr td {
+ 
+    padding: 10px;
+   }
+   .product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .z{
+    border-radius: 15%;
+    background-color: #0473fb;
+  }
+  .n{
+    border-radius: 15%;
+    background-color: #0473fb;
+    border: 2px solid #FD3A2D;
+    border-radius: 10px;
+    background-color: #FD3A2D;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 20px;
+  }
+.n{
+    border-radius: 15%;
+}

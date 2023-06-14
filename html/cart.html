@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/script.js"></script>
+<link rel="website icon" type="png" href="../logo/icon.png">
+<link rel="stylesheet" href="../css/style.css"> 
+<link rel="stylesheet" href="../css/cart.css">
+<script src="../js/cart.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<title>Med Chakcha</title>
+<center>
+    <div class="hero">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="../logo/logo.png" class="logo" alt="Med Chakcha">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="collapse navbar-collapse" id="navbarNav">
+        
+        <ul id="nvs" class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.paypal.com/paypalme/chakcha">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/about.html">About</a>
+          </li>
+        </ul>
+        
+        <ul id='btnv' class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="html/cart.html">
+              <div id="cart" class="btn btn-primary">
+                <i class="fas fa-shopping-cart"></i> Cart
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+</center>
+</head>
+<body>
+
+
+
+<br>
+
+<fieldset>
+<section id="products">
+
+
+   <div id="cart-f">
+      <h3 id="h3" style="color: red;">cart empty</h3>
+   </div>
+
+
+
+    <div class="div">
+        <button id="valid">Valid cartxs</button>
+        <button id="reset" onclick="clear_cart()">Clear cart</button>
+    </div>
+</section>
+
+
+<table id="total">
+    <tr>
+        <td>Total : </td>
+        <td><span id="s_total">00.00</span> DH</td>
+    </tr>
+</table>
+
+</fieldset>
+
+
+  
+<script>
+let cart_f = document.getElementById('cart-f');
+c_body = JSON.parse(localStorage.cart_body);
+let c = '';
+
+for (let i = 0; i < c_body.length; i++) {
+    c += c_body[i];
+}
+
+cart_f.innerHTML = c;
+
+
+</script>
+
+
+
+
+
+
+<br><br>
+
+<footer id="contacts">
+    <div class="padding">
+        <p class="p1">For more information, please contact us</p>
+        <br>
+        <h3>MedXD</h3>
+        <a href="https://github.com/MedXD2002" target="_blank"><img src="../logo/github.png" alt="Github"></a>
+        <a href="https://www.facebook.com/MedXD2002" target="_blank"><img src="../logo/facebook.png"
+                alt="FaceBook"></a>
+        <a href="https://www.instagram.com/med.xd/" target="_blank"><img src="../logo/instagram.png"
+                alt="Instagram"></a>
+        
+        
+        <hr>
+
+        <h3>Chakcha</h3>
+
+        <a href="https://github.com/chakcha123" target="_blank"><img src="../logo/github.png" alt="Github"></a>
+        <a href="https://www.facebook.com/youssef.idaouti.1" target="_blank"><img src="../logo/facebook.png"
+                alt="FaceBook"></a>
+        <a href="https://www.instagram.com/cha_k_cha23/" target="_blank"><img src="../logo/instagram.png"
+                alt="Instagram"></a>
+        
+       
+        <br><br>
+        <p class="p2">Copyright &copy; Med Chakcha</p>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
